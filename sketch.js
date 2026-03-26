@@ -7,7 +7,11 @@ function preload() {
 
 function setup() {
   createCanvas(400, 400);
-  background(160,0,0);
+  let red = random (255);
+  let green = random (255);
+  let blue = random (255);
+  background(red, green, blue);
+
 
   let x;
   let y;
